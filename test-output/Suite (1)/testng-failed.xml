@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (1)]">
+  <test thread-count="5" name="TestCC(failed)">
+    <classes>
+      <class name="c_family.CC">
+        <methods>
+          <include name="exiting"/>
+          <include name="init"/>
+          <include name="testCC"/>
+        </methods>
+      </class> <!-- c_family.CC -->
+    </classes>
+  </test> <!-- TestCC(failed) -->
+  <test thread-count="5" name="TestCCC(failed)">
+    <classes>
+      <class name="c_family.CCC">
+        <methods>
+          <include name="exiting"/>
+          <include name="testCCC"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- c_family.CCC -->
+    </classes>
+  </test> <!-- TestCCC(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->
